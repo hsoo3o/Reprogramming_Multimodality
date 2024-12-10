@@ -1,0 +1,26 @@
+torch==1.13.1 
+torchvision
+torchaudio
+open_clip_torch
+scikit-learn==1.5.2
+scipy==1.14.1
+h5py
+pandas
+pytorchvideo @ git+https://github.com/facebookresearch/pytorchvideo.git@28fe037d212663c6a24f373b94cc5d478c8c1a1d
+
+decord==0.6.0
+
+numpy==1.26.3
+yt-dlp==2024.12.3
+
+timm==0.6.7
+ftfy
+regex
+einops
+fvcore
+eva-decord==0.6.1
+iopath
+matplotlib
+types-regex
+mayavi
+cartopy

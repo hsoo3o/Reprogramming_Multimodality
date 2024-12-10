@@ -1,0 +1,28 @@
+
+batch_size: 2
+
+source_type: image
+source:
+  input_resolution: 224
+  patch_size: 14
+  embed_dim: 1280
+  pool_type: tok
+  text_pool_type: argmax
+  text_emb_dim: 1024
+
+train_target: audio
+depth:  
+  input_resolution: 224
+  patch_size: 14
+  vid_frame_num: 2
+audio:
+  audio_num_mel_bins: 128
+  audio_target_len: 204
+  audio_kernel_size: 14
+  audio_stride: 10
+
+
+reprogram:
+  reprogram_emb_dim: 1024
+  reprogram_num_heads: 8
+  reprogram_dropout: 0.3
